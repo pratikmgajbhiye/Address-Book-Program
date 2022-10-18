@@ -8,7 +8,9 @@ public class AddressBookMain {
 		// TODO Auto-generated method stub
 		Scanner sc =new Scanner(System.in);
 		System.out.println("Welcome to Address Book Program");
-		
+		AdderssBook obj=new AdderssBook();
+		obj.addContacts();
+
 	}
 
 }
